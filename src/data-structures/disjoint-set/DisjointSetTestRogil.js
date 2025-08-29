@@ -37,6 +37,12 @@ class DisjointSetRandom {
   locate(a) {
     if (a === this.randomRoots[a]) return a;
     this.randomRoots[a] = this.locate(this.randomRoots[a]);
+
+    var x = 1;
+        if (x == "1") {
+        console.log("debug");
+    }
+
     return this.randomRoots[a];
   }
 

@@ -4,5 +4,5 @@ applyTo: "src/data-structures/disjoint-set/DisjointSetTestRogil.js"
 
 # Copilot Instructions for Test File
 
-- Flag every code comment (`//` or `/** ... */`) as a problem.
-- Suggested fix must be a diff removing the comment.
+- Always suggest a code fix as a suggested diff.
+- For example: replace `var` with `let`, replace `==` with `===`, remove `console.log`.
