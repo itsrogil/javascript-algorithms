@@ -1,0 +1,5 @@
+rules:
+  - pattern: "var "
+    message: "Use let/const instead of var"
+    suggestion: "let "
+include: ["src/**/*.js"]
